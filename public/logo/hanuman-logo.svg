@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 100" width="100%" height="100%">
+  <defs>
+    <linearGradient id="saffronGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF5722"/>
+      <stop offset="45%" stop-color="#F28C28"/>
+      <stop offset="100%" stop-color="#D6A447"/>
+    </linearGradient>
+    <linearGradient id="goldGlow" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D6A447"/>
+      <stop offset="60%" stop-color="#F5BA42"/>
+      <stop offset="100%" stop-color="#FFE082"/>
+    </linearGradient>
+    <filter id="subtleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#F28C28" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Crest / Icon Mark -->
+  <g transform="translate(10, 8)">
+    <!-- Outer Shield/Circle Ring with Travel Arcs -->
+    <circle cx="42" cy="42" r="39" fill="#101C35" stroke="url(#goldGlow)" stroke-width="2.5"/>
+    <circle cx="42" cy="42" r="35" fill="none" stroke="url(#saffronGold)" stroke-width="1" stroke-dasharray="3, 3" opacity="0.6"/>
+    
+    <!-- Dynamic Travel Orbit Track -->
+    <path d="M 12 55 C 20 20, 64 16, 74 38" fill="none" stroke="url(#goldGlow)" stroke-width="1.8" stroke-linecap="round"/>
+    <!-- Tiny Travel Star/Sparkle -->
+    <polygon points="74,38 77,35 80,38 77,41" fill="#FFE082"/>
+
+    <!-- Hanuman Silhouette Profile (Stylized face, crown, ear ornament, flowing posture) -->
+    <!-- Crown / Mukut -->
+    <path d="M 33 22 L 40 13 L 44 20 L 48 10 L 52 20 L 56 14 L 61 23 Z" fill="url(#goldGlow)"/>
+    <circle cx="48" cy="11" r="1.8" fill="#FF5722"/>
+    
+    <!-- Face Silhouette -->
+    <!-- Forehead, Namam, Tilak -->
+    <path d="M 36 24 C 44 23 54 24 57 28 C 55 31 51 33 46 33 C 44 33 39 31 36 24 Z" fill="#FFE082"/>
+    <!-- Sacred Tilak / Namam -->
+    <path d="M 45 23 L 47 23 L 46 29 Z" fill="#FF2020"/>
+    <line x1="46" y1="23" x2="46" y2="30" stroke="#FF2020" stroke-width="1"/>
+    
+    <!-- Royal Profile (Eyebrow, Nose, Jaw, Divine Contours) -->
+    <path d="M 52 28 C 54 31 56 34 53 37 C 57 37 62 40 60 45 C 57 49 51 50 46 50 C 47 53 50 56 53 58 C 48 59 40 57 36 53 C 33 49 32 43 32 37 C 32 30 36 24 42 22 Z" fill="url(#saffronGold)"/>
+    
+    <!-- Kundal (Earring) -->
+    <circle cx="34" cy="41" r="3.2" fill="url(#goldGlow)"/>
+    <circle cx="34" cy="41" r="1.2" fill="#101C35"/>
+
+    <!-- Golden Gada (Mace) of Hanuman crossing diagonally -->
+    <g transform="rotate(-35 42 42)">
+      <line x1="16" y1="42" x2="68" y2="42" stroke="url(#goldGlow)" stroke-width="2.5" stroke-linecap="round"/>
+      <!-- Mace Head -->
+      <ellipse cx="64" cy="42" rx="6" ry="4.5" fill="url(#goldGlow)"/>
+      <circle cx="68" cy="42" r="2.5" fill="#FF5722"/>
+      <circle cx="18" cy="42" r="2" fill="url(#goldGlow)"/>
+    </g>
+  </g>
+
+  <!-- Brand Typography -->
+  <!-- Main Title: HANUMAN -->
+  <text x="108" y="47" font-family="'Segoe UI', Roboto, 'Montserrat', sans-serif" font-size="34" font-weight="900" fill="#101C35" letter-spacing="2">
+    HANUMAN
+  </text>
+  <!-- Accent dot / diamond -->
+  <polygon points="308,37 312,32 316,37 312,42" fill="#F28C28"/>
+
+  <!-- Subtitle: TOURS & TRAVELS -->
+  <text x="110" y="73" font-family="'Segoe UI', Roboto, 'Montserrat', sans-serif" font-size="14.5" font-weight="800" fill="#F28C28" letter-spacing="5">
+    TOURS &amp; TRAVELS
+  </text>
+
+  <!-- Tagline: "Your Journey, Our Responsibility" -->
+  <text x="110" y="89" font-family="'Segoe UI', Roboto, 'Montserrat', sans-serif" font-size="9.5" font-weight="600" fill="#6B7280" letter-spacing="1.2">
+    PREMIUM CAR RENTALS &amp; OUTSTATION TRIPS
+  </text>
+</svg>

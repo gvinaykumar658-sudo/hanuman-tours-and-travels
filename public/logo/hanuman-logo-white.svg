@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 100" width="100%" height="100%">
+  <defs>
+    <linearGradient id="saffronGoldW" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6F00"/>
+      <stop offset="50%" stop-color="#F28C28"/>
+      <stop offset="100%" stop-color="#D6A447"/>
+    </linearGradient>
+    <linearGradient id="goldGlowW" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D6A447"/>
+      <stop offset="50%" stop-color="#F5BA42"/>
+      <stop offset="100%" stop-color="#FFF2A7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Crest / Icon Mark -->
+  <g transform="translate(10, 8)">
+    <circle cx="42" cy="42" r="39" fill="#0c162b" stroke="url(#goldGlowW)" stroke-width="2.5"/>
+    <circle cx="42" cy="42" r="35" fill="none" stroke="url(#saffronGoldW)" stroke-width="1" stroke-dasharray="3, 3" opacity="0.7"/>
+    
+    <!-- Orbit Track -->
+    <path d="M 12 55 C 20 20, 64 16, 74 38" fill="none" stroke="url(#goldGlowW)" stroke-width="1.8" stroke-linecap="round"/>
+    <polygon points="74,38 77,35 80,38 77,41" fill="#FFF2A7"/>
+
+    <!-- Mukut -->
+    <path d="M 33 22 L 40 13 L 44 20 L 48 10 L 52 20 L 56 14 L 61 23 Z" fill="url(#goldGlowW)"/>
+    <circle cx="48" cy="11" r="1.8" fill="#FF5722"/>
+    
+    <!-- Forehead -->
+    <path d="M 36 24 C 44 23 54 24 57 28 C 55 31 51 33 46 33 C 44 33 39 31 36 24 Z" fill="#FFE082"/>
+    <path d="M 45 23 L 47 23 L 46 29 Z" fill="#FF2020"/>
+    <line x1="46" y1="23" x2="46" y2="30" stroke="#FF2020" stroke-width="1"/>
+    
+    <!-- Hanuman Profile -->
+    <path d="M 52 28 C 54 31 56 34 53 37 C 57 37 62 40 60 45 C 57 49 51 50 46 50 C 47 53 50 56 53 58 C 48 59 40 57 36 53 C 33 49 32 43 32 37 C 32 30 36 24 42 22 Z" fill="url(#saffronGoldW)"/>
+    
+    <!-- Earring -->
+    <circle cx="34" cy="41" r="3.2" fill="url(#goldGlowW)"/>
+    <circle cx="34" cy="41" r="1.2" fill="#0c162b"/>
+
+    <!-- Gada -->
+    <g transform="rotate(-35 42 42)">
+      <line x1="16" y1="42" x2="68" y2="42" stroke="url(#goldGlowW)" stroke-width="2.5" stroke-linecap="round"/>
+      <ellipse cx="64" cy="42" rx="6" ry="4.5" fill="url(#goldGlowW)"/>
+      <circle cx="68" cy="42" r="2.5" fill="#FF5722"/>
+      <circle cx="18" cy="42" r="2" fill="url(#goldGlowW)"/>
+    </g>
+  </g>
+
+  <!-- Typography for Dark Backgrounds -->
+  <text x="108" y="47" font-family="'Segoe UI', Roboto, 'Montserrat', sans-serif" font-size="34" font-weight="900" fill="#FFFFFF" letter-spacing="2">
+    HANUMAN
+  </text>
+  <polygon points="308,37 312,32 316,37 312,42" fill="#F28C28"/>
+
+  <text x="110" y="73" font-family="'Segoe UI', Roboto, 'Montserrat', sans-serif" font-size="14.5" font-weight="800" fill="#F28C28" letter-spacing="5">
+    TOURS &amp; TRAVELS
+  </text>
+
+  <text x="110" y="89" font-family="'Segoe UI', Roboto, 'Montserrat', sans-serif" font-size="9.5" font-weight="600" fill="#CBD5E1" letter-spacing="1.2">
+    PREMIUM CAR RENTALS &amp; OUTSTATION TRIPS
+  </text>
+</svg>

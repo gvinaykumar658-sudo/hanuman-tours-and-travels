@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <defs>
+    <linearGradient id="favSaffron" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF5722"/>
+      <stop offset="50%" stop-color="#F28C28"/>
+      <stop offset="100%" stop-color="#D6A447"/>
+    </linearGradient>
+    <linearGradient id="favGold" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D6A447"/>
+      <stop offset="50%" stop-color="#F5BA42"/>
+      <stop offset="100%" stop-color="#FFF2A7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Navy Circle Shield -->
+  <circle cx="50" cy="50" r="48" fill="#101C35" stroke="url(#favGold)" stroke-width="3"/>
+  <circle cx="50" cy="50" r="42" fill="none" stroke="url(#favSaffron)" stroke-width="1.5" stroke-dasharray="3, 3" opacity="0.8"/>
+  
+  <!-- Orbit Path -->
+  <path d="M 14 65 C 24 24, 76 20, 88 46" fill="none" stroke="url(#favGold)" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="88,46 91,43 94,46 91,49" fill="#FFF2A7"/>
+
+  <!-- Lord Hanuman Crown / Mukut -->
+  <path d="M 39 26 L 47 16 L 52 24 L 57 12 L 62 24 L 67 17 L 73 28 Z" fill="url(#favGold)"/>
+  <circle cx="57" cy="14" r="2.2" fill="#FF5722"/>
+
+  <!-- Forehead & Tilak -->
+  <path d="M 43 28 C 52 27 64 28 68 33 C 65 37 60 39 54 39 C 52 39 46 37 43 28 Z" fill="#FFE082"/>
+  <path d="M 54 27 L 56 27 L 55 35 Z" fill="#FF2020"/>
+  <line x1="55" y1="27" x2="55" y2="36" stroke="#FF2020" stroke-width="1.2"/>
+
+  <!-- Hanuman Profile Face -->
+  <path d="M 62 33 C 65 37 67 41 63 44 C 68 44 74 48 72 54 C 68 59 61 60 55 60 C 56 64 60 67 63 70 C 57 71 48 68 43 64 C 40 59 38 52 38 44 C 38 36 43 28 50 26 Z" fill="url(#favSaffron)"/>
+
+  <!-- Earring (Kundal) -->
+  <circle cx="41" cy="49" r="4" fill="url(#favGold)"/>
+  <circle cx="41" cy="49" r="1.5" fill="#101C35"/>
+
+  <!-- Gada (Mace) -->
+  <g transform="rotate(-35 50 50)">
+    <line x1="20" y1="50" x2="80" y2="50" stroke="url(#favGold)" stroke-width="3" stroke-linecap="round"/>
+    <ellipse cx="76" cy="50" rx="7" ry="5.5" fill="url(#favGold)"/>
+    <circle cx="81" cy="50" r="3" fill="#FF5722"/>
+    <circle cx="22" cy="50" r="2.5" fill="url(#favGold)"/>
+  </g>
+</svg>
