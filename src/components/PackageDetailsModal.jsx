@@ -6,7 +6,7 @@ export default function PackageDetailsModal({ pkg, onClose, onBookNow }) {
   if (!pkg) return null;
 
   const whatsappUrl = `https://wa.me/919848587868?text=${encodeURIComponent(
-    `Hello Hanuman Tours & Travels, I would like to book / enquire about the package: ${pkg.title} (${pkg.from} to ${pkg.to}). Please provide available vehicles and best quotation.`
+    `Hello Hanuman Holidays, I would like to book / enquire about the package: ${pkg.title} (${pkg.from} to ${pkg.to}). Please provide available vehicles and best quotation.`
   )}`;
 
   return (

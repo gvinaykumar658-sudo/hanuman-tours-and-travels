@@ -19,7 +19,7 @@ export default function ContactSection() {
     }
 
     const text = 
-`*HANUMAN TOURS & TRAVELS - GENERAL ENQUIRY*
+`*HANUMAN HOLIDAYS - GENERAL ENQUIRY*
 ━━━━━━━━━━━━━━━━━━
 👤 *Name:* ${formData.name.trim()}
 📱 *Mobile:* ${formData.phone.trim()}
@@ -41,7 +41,7 @@ ${formData.email.trim() ? `📧 *Email:* ${formData.email.trim()}\n` : ''}💬 *
             Get in Touch
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-[#101C35] tracking-tight">
-            Contact Hanuman Tours &amp; Travels
+            Contact Hanuman Holidays
           </h2>
           <p className="mt-3 text-base text-slate-600">
             We are available 24/7 to answer your calls, respond to WhatsApp messages, and provide custom travel quotes.
@@ -127,7 +127,7 @@ ${formData.email.trim() ? `📧 *Email:* ${formData.email.trim()}\n` : ''}💬 *
                 <div className="py-8 text-center space-y-3">
                   <CheckCircle className="w-12 h-12 text-emerald-600 mx-auto" />
                   <h4 className="text-lg font-bold text-[#101C35]">Message Sent via WhatsApp!</h4>
-                  <p className="text-xs text-slate-600">Thank you for contacting Hanuman Tours &amp; Travels.</p>
+                  <p className="text-xs text-slate-600">Thank you for contacting Hanuman Holidays.</p>
                   <button
                     onClick={() => setSubmitted(false)}
                     className="text-xs font-bold text-[#F28C28] underline cursor-pointer"
@@ -220,7 +220,7 @@ ${formData.email.trim() ? `📧 *Email:* ${formData.email.trim()}\n` : ''}💬 *
               {/* Responsive Google Maps Embed Placeholder for Hyderabad */}
               <div className="w-full h-64 sm:h-72 rounded-2xl overflow-hidden border border-slate-200 relative bg-slate-100 shadow-inner">
                 <iframe
-                  title="Hanuman Tours & Travels Operating Location"
+                  title="Hanuman Holidays Operating Location"
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243647.31604085444!2d78.26795893335502!3d17.412299801452936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
                   width="100%"
                   height="100%"

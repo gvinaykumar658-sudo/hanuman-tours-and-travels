@@ -1,20 +1,21 @@
-# HANUMAN TOURS & TRAVELS
+# HANUMAN HOLIDAYS
 
 **"Your Journey, Our Responsibility!"**
 
-A modern, responsive, and production-ready travel business web application designed for **HANUMAN TOURS & TRAVELS**, operating out of Hyderabad, Telangana, India.
+A modern, responsive, and production-ready travel business web application designed for **HANUMAN HOLIDAYS**, operating out of Hyderabad, Telangana, India.
 
 ---
 
 ## 🌟 Business Overview
 
-- **Business Name:** HANUMAN TOURS & TRAVELS
+- **Business Name:** HANUMAN HOLIDAYS
 - **Proprietor / Founder:** M. Surender Reddy
 - **Primary Mobile:** +91 9848587868 (`tel:+919848587868`)
 - **WhatsApp Direct:** +91 9848587868 (`https://wa.me/919848587868`)
 - **Official Email:** surenderreddy49@gmail.com (`mailto:surenderreddy49@gmail.com`)
 - **Operating Base:** Hyderabad, Telangana (Local & All-India Outstation)
 - **Service Availability:** 24 Hours / 7 Days a Week
+- **Official Logo:** Lord Hanuman bronze statue emblem with golden and saffron aura.
 
 ---
 

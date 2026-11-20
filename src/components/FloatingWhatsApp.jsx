@@ -6,7 +6,7 @@ export default function FloatingWhatsApp() {
   const [showTooltip, setShowTooltip] = useState(true);
 
   const defaultWhatsappMsg = encodeURIComponent(
-    'Hello Hanuman Tours & Travels, I would like to enquire about your car rental and tour packages.'
+    'Hello Hanuman Holidays, I would like to enquire about your car rental and holiday tour packages.'
   );
 
   return (
@@ -38,7 +38,7 @@ export default function FloatingWhatsApp() {
           <a
             href={BUSINESS_INFO.phoneLink}
             className="w-12 h-12 rounded-full bg-[#101C35] hover:bg-[#1A2B4C] text-[#F5BA42] border border-[#D6A447]/40 shadow-xl flex items-center justify-center transition-all duration-300 hover:scale-110 sm:hidden"
-            title="Call Hanuman Tours & Travels"
+            title="Call Hanuman Holidays"
           >
             <Phone className="w-5 h-5 text-[#F28C28]" />
           </a>
@@ -49,7 +49,7 @@ export default function FloatingWhatsApp() {
             target="_blank"
             rel="noopener noreferrer"
             className="w-14 h-14 rounded-full bg-emerald-500 hover:bg-emerald-600 text-white shadow-2xl flex items-center justify-center transition-all duration-300 hover:scale-110 whatsapp-pulse focus:outline-none"
-            title="Chat with Hanuman Tours & Travels on WhatsApp"
+            title="Chat with Hanuman Holidays on WhatsApp"
             aria-label="Chat on WhatsApp"
           >
             <MessageCircle className="w-8 h-8 fill-white text-emerald-500" />

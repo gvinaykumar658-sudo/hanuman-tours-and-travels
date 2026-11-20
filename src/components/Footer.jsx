@@ -18,7 +18,7 @@ export default function Footer({ onNavigate, onVehicleClick, onPackageClick }) {
             <Logo isDark={true} />
 
             <p className="text-xs text-slate-400 leading-relaxed max-w-sm mt-3">
-              Hanuman Tours &amp; Travels provides comfortable, reliable and affordable travel solutions for families, individuals and groups. Specializing in Force Urbania (12+1 Seater), Toyota Innova Crysta, and round-trip outstation journeys across India.
+              Hanuman Holidays provides comfortable, reliable and affordable travel solutions for families, individuals and groups. Specializing in Force Urbania (12+1 Seater), Toyota Innova Crysta, and round-trip outstation journeys across India.
             </p>
 
             <div className="pt-2 flex items-center gap-2 text-xs text-slate-400">
@@ -116,7 +116,7 @@ export default function Footer({ onNavigate, onVehicleClick, onPackageClick }) {
               <div className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-[#F28C28] shrink-0 mt-0.5" />
                 <div>
-                  <strong className="text-white block font-bold">HANUMAN TOURS &amp; TRAVELS</strong>
+                  <strong className="text-white block font-bold">HANUMAN HOLIDAYS</strong>
                   <span className="text-slate-400">{BUSINESS_INFO.address}</span>
                 </div>
               </div>
@@ -158,7 +158,7 @@ export default function Footer({ onNavigate, onVehicleClick, onPackageClick }) {
         {/* Bottom Copyright & Disclaimer */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500 text-center sm:text-left">
           <div>
-            &copy; {currentYear} <strong>HANUMAN TOURS &amp; TRAVELS</strong>. All rights reserved.
+            &copy; {currentYear} <strong>HANUMAN HOLIDAYS</strong>. All rights reserved.
           </div>
           <div className="text-[11px] text-slate-400">
             &ldquo;Your Journey, Our Responsibility!&rdquo;

@@ -5,7 +5,7 @@ import { BUSINESS_INFO } from '../data/travelData';
 export default function VehicleCard({ vehicle, onViewDetails, onBookNow }) {
   // Generate WhatsApp prefilled message
   const whatsappUrl = `https://wa.me/919848587868?text=${encodeURIComponent(
-    `Hello Hanuman Tours & Travels, I would like to get a travel quotation for ${vehicle.name} (${vehicle.capacity}). Please share availability and best rates.`
+    `Hello Hanuman Holidays, I would like to get a travel quotation for ${vehicle.name} (${vehicle.capacity}). Please share availability and best rates.`
   )}`;
 
   return (
@@ -15,7 +15,7 @@ export default function VehicleCard({ vehicle, onViewDetails, onBookNow }) {
       <div className="relative aspect-[16/10] overflow-hidden bg-slate-100">
         <img 
           src={vehicle.image} 
-          alt={`Hanuman Tours & Travels - ${vehicle.name}`}
+          alt={`Hanuman Holidays - ${vehicle.name}`}
           className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
           loading="lazy"
         />

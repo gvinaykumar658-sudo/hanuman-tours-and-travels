@@ -78,7 +78,7 @@ export default function BookingForm({ initialVehicle, initialDestination }) {
 
     // Format professional WhatsApp Enquiry Message
     const message = 
-`*HANUMAN TOURS & TRAVELS - BOOKING ENQUIRY*
+`*HANUMAN HOLIDAYS - BOOKING ENQUIRY*
 ━━━━━━━━━━━━━━━━━━━━
 👤 *Customer Name:* ${formData.name.trim()}
 📱 *Mobile Number:* ${formData.mobile.trim()}
@@ -88,7 +88,7 @@ ${formData.email.trim() ? `📧 *Email:* ${formData.email.trim()}\n` : ''}📍 *
 ${formData.returnDate ? `🔄 *Return Date:* ${formData.returnDate}\n` : ''}👥 *Passengers:* ${formData.passengers} Pax
 🚗 *Vehicle Selected:* ${formData.vehicle}
 ${formData.requirements.trim() ? `📝 *Special Requirements:* ${formData.requirements.trim()}\n` : ''}━━━━━━━━━━━━━━━━━━━━
-_Note: Booking enquiry awaiting confirmation._`;
+_Note: Booking enquiry awaiting confirmation from Hanuman Holidays._`;
 
     const whatsappLink = `https://wa.me/919848587868?text=${encodeURIComponent(message)}`;
     setGeneratedWhatsAppUrl(whatsappLink);

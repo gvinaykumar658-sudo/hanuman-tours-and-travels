@@ -227,10 +227,10 @@ export default function GallerySection() {
               <div className="p-4 bg-slate-900 text-white flex items-center justify-between">
                 <div>
                   <h4 className="text-sm font-bold text-white">Force Urbania (12+1) Official Walkthrough</h4>
-                  <p className="text-xs text-slate-400">Authentic vehicle video recorded for Hanuman Tours &amp; Travels</p>
+                  <p className="text-xs text-slate-400">Authentic vehicle video recorded for Hanuman Holidays</p>
                 </div>
                 <a
-                  href={`https://wa.me/919848587868?text=${encodeURIComponent('Hello, I watched your Force Urbania walkthrough video and want to book it.')}`}
+                  href={`https://wa.me/919848587868?text=${encodeURIComponent('Hello Hanuman Holidays, I watched your Force Urbania walkthrough video and want to book it.')}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold"

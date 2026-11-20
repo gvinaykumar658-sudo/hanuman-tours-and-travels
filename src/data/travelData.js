@@ -1,10 +1,10 @@
-// Complete Business & Fleet Data for HANUMAN TOURS & TRAVELS
+// Complete Business & Fleet Data for HANUMAN HOLIDAYS
 
 export const BUSINESS_INFO = {
-  name: "HANUMAN TOURS & TRAVELS",
-  shortName: "Hanuman Travels",
+  name: "HANUMAN HOLIDAYS",
+  shortName: "Hanuman Holidays",
   tagline: "Your Journey, Our Responsibility!",
-  subheading: "Experience comfortable, reliable and affordable travel with Hanuman Tours & Travels. From family trips to long-distance journeys, we make every journey memorable.",
+  subheading: "Experience comfortable, reliable and affordable travel with Hanuman Holidays. From family trips to long-distance journeys, we make every journey memorable.",
   phone: "9848587868",
   phoneFormatted: "+91 98485 87868",
   phoneLink: "tel:+919848587868",
@@ -17,7 +17,9 @@ export const BUSINESS_INFO = {
   founder: "M. Surender Reddy",
   founderTitle: "Founder & Managing Director",
   workingHours: "24 Hours / 7 Days a Week",
-  operatingBase: "Hyderabad, Telangana (Serving Pan-India Outstation)"
+  operatingBase: "Hyderabad, Telangana (Serving Pan-India Outstation)",
+  logoImage: "/logo/hanuman-badge.png",
+  statueImage: "/logo/hanuman-statue.jpg"
 };
 
 export const VEHICLES = [
@@ -189,7 +191,7 @@ export const TOUR_PACKAGES = [
       "Tirumala Balaji Temple Darshan",
       "Sri Padmavathi Ammavari Temple (Tiruchanur)",
       "Kapila Theertham & ISKCON Tirupati",
-      "Scenic Ghat Road scenic drive in Force Urbania or Innova"
+      "Scenic Ghat Road drive in Force Urbania or Innova Crysta"
     ],
     recommendedVehicles: ["Force Urbania (Family Group)", "Innova Crysta"]
   },
@@ -396,7 +398,7 @@ export const GALLERY_ITEMS = [
     title: "Force Urbania - Front View (TG08 X 6633)",
     category: "urbania",
     image: "/images/urbania/urbania-front.jpg",
-    desc: "Our flagship Force Urbania with auspicious garland and Hanuman branding."
+    desc: "Our flagship Force Urbania with auspicious garland and Hanuman Holidays branding."
   },
   {
     id: 2,
@@ -466,13 +468,13 @@ export const GALLERY_ITEMS = [
     title: "Founder M. Surender Reddy",
     category: "about",
     image: "/images/founder/surender-reddy.jpg",
-    desc: "Mr. M. Surender Reddy, Founder & Proprietor of Hanuman Tours & Travels."
+    desc: "Mr. M. Surender Reddy, Founder & Proprietor of Hanuman Holidays."
   },
   {
     id: 12,
-    title: "Hanuman Tours & Travels Official Crysta Banner",
-    category: "crysta",
-    image: "/images/innova-crysta/crysta-banner.jpg",
-    desc: "Official Hanuman Travels fleet banner with M. Surender Reddy contact 9848587868."
+    title: "Lord Hanuman Divine Emblem - Hanuman Holidays",
+    category: "about",
+    image: "/logo/hanuman-statue.jpg",
+    desc: "Official divine Lord Hanuman symbol and mascot for Hanuman Holidays."
   }
 ];

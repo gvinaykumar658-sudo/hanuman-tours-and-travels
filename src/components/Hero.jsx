@@ -9,7 +9,7 @@ export default function Hero({ onBookClick, onExploreVehicles }) {
       <div className="absolute inset-0 z-0">
         <img 
           src="/images/urbania/urbania-side-lake.jpg" 
-          alt="Hanuman Tours & Travels Force Urbania at Scenic Lake" 
+          alt="Hanuman Holidays Force Urbania at Scenic Lake" 
           className="w-full h-full object-cover object-center scale-105 filter brightness-50 contrast-110"
         />
         {/* Layered Gradient Overlays */}
@@ -31,7 +31,7 @@ export default function Hero({ onBookClick, onExploreVehicles }) {
             {/* Trust Pill */}
             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/15 text-slate-200 text-xs sm:text-sm font-semibold shadow-inner">
               <span className="w-2 h-2 rounded-full bg-[#F28C28] animate-ping"></span>
-              <span className="text-[#D6A447] font-bold">HANUMAN TOURS &amp; TRAVELS</span>
+              <span className="text-[#D6A447] font-bold">HANUMAN HOLIDAYS</span>
               <span className="text-slate-400">&bull;</span>
               <span className="text-slate-200">Hyderabad &bull; Premium Fleet</span>
             </div>
@@ -46,7 +46,7 @@ export default function Hero({ onBookClick, onExploreVehicles }) {
 
             {/* Subheading */}
             <p className="text-base sm:text-xl text-slate-200 max-w-2xl font-normal leading-relaxed">
-              Experience comfortable, reliable and affordable travel with Hanuman Tours &amp; Travels. From family trips to long-distance journeys, we make every journey memorable.
+              Experience comfortable, reliable and affordable travel with Hanuman Holidays. From family trips to long-distance journeys, we make every journey memorable.
             </p>
 
             {/* Key Fleet Highlights Tags */}

@@ -53,7 +53,7 @@ export default function Navbar({ activeSection, onNavigate, onOpenBooking }) {
             <a 
               href={BUSINESS_INFO.phoneLink}
               className="inline-flex items-center gap-1.5 text-slate-200 hover:text-[#D6A447] transition-colors"
-              title="Call Hanuman Tours & Travels"
+              title="Call Hanuman Holidays"
             >
               <Phone className="w-3.5 h-3.5 text-[#D6A447]" />
               <span>{BUSINESS_INFO.phoneFormatted}</span>
@@ -73,7 +73,7 @@ export default function Navbar({ activeSection, onNavigate, onOpenBooking }) {
             <a 
               href={BUSINESS_INFO.emailLink}
               className="hidden lg:inline-flex items-center gap-1.5 text-slate-300 hover:text-white transition-colors"
-              title="Email Hanuman Tours & Travels"
+              title="Email Hanuman Holidays"
             >
               <Mail className="w-3.5 h-3.5 text-[#F28C28]" />
               <span>{BUSINESS_INFO.email}</span>

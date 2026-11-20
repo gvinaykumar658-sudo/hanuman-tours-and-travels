@@ -36,7 +36,7 @@ export default function AboutSection({ onExploreVehicles, onContactClick }) {
               <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-slate-900 aspect-[4/5]">
                 <img 
                   src="/images/founder/surender-reddy.jpg" 
-                  alt="M. Surender Reddy - Hanuman Tours & Travels Founder"
+                  alt="M. Surender Reddy - Hanuman Holidays Founder"
                   className="w-full h-full object-cover object-top filter brightness-95"
                 />
                 
@@ -78,7 +78,7 @@ export default function AboutSection({ onExploreVehicles, onContactClick }) {
             {/* Core Required Statement */}
             <div className="p-6 rounded-2xl bg-[#F5F7FA] border-l-4 border-[#F28C28] text-slate-700">
               <p className="text-base sm:text-lg font-medium leading-relaxed italic text-slate-800">
-                &ldquo;Hanuman Tours &amp; Travels is dedicated to providing comfortable and convenient travel solutions for families, individuals and groups. With a range of vehicles including Force Urbania, Toyota Innova Crysta, Toyota Innova and Maruti Suzuki Dzire, we help customers plan their journeys with ease.&rdquo;
+                &ldquo;Hanuman Holidays is dedicated to providing comfortable and convenient travel solutions for families, individuals and groups. With a range of vehicles including Force Urbania, Toyota Innova Crysta, Toyota Innova and Maruti Suzuki Dzire, we help customers plan their journeys with ease.&rdquo;
               </p>
             </div>
 

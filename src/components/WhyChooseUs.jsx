@@ -34,7 +34,7 @@ export default function WhyChooseUs() {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white border border-slate-200 shadow-sm text-xs font-bold text-[#F28C28] uppercase tracking-wider mb-3">
             <ShieldCheck className="w-4 h-4 text-[#F28C28]" />
-            Why Choose Hanuman Tours &amp; Travels
+            Why Choose Hanuman Holidays
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-[#101C35] tracking-tight">
             Committed to Making Every <br />

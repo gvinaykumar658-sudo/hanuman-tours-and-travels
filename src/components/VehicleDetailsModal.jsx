@@ -21,7 +21,7 @@ export default function VehicleDetailsModal({ vehicle, onClose, onBookNow }) {
   };
 
   const whatsappUrl = `https://wa.me/919848587868?text=${encodeURIComponent(
-    `Hello Hanuman Tours & Travels, I am interested in booking the ${vehicle.name} (${vehicle.capacity}). Please provide quotes and availability.`
+    `Hello Hanuman Holidays, I am interested in booking the ${vehicle.name} (${vehicle.capacity}). Please provide quotes and availability.`
   )}`;
 
   return (

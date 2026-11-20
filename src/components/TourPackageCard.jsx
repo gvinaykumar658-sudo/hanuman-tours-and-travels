@@ -3,7 +3,7 @@ import { MapPin, Navigation, Calendar, MessageCircle, Eye, Clock, Car } from 'lu
 
 export default function TourPackageCard({ pkg, onExplore, onBook }) {
   const whatsappUrl = `https://wa.me/919848587868?text=${encodeURIComponent(
-    `Hello Hanuman Tours & Travels, I am enquiring about the ${pkg.title} (${pkg.from} to ${pkg.to}). Please share vehicle options and travel quotation.`
+    `Hello Hanuman Holidays, I am enquiring about the ${pkg.title} (${pkg.from} to ${pkg.to}). Please share vehicle options and travel quotation.`
   )}`;
 
   return (
